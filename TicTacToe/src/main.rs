@@ -24,7 +24,7 @@ fn main() {
 
         board[row - 1][col - 1] = player;
 
-        // conditions to check for a win
+        // conditions to check if a user has won
         if (board[0][0] == player && board[0][1] == player && board[0][2] == player)
             || (board[1][0] == player && board[1][1] == player && board[1][2] == player)
             || (board[2][0] == player && board[2][1] == player && board[2][2] == player)
